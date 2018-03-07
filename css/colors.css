@@ -1,0 +1,25 @@
+.primary{
+color: #0088ce;
+}
+.accent{
+color: #44ae30;
+}
+.primary-bg{
+  color: Aliceblue;
+}
+.accent-bg{
+ background-color: Magenta
+}
+.success-color{
+  color: green;
+}
+.warning-color{
+  color: #ff8000;
+}
+.danger-color{
+  color: #ff0000;
+}
+
+.info-color{
+  color: #ffff00;
+  }
