@@ -1,11 +1,23 @@
-.primary{
+.color-primary{
 color: #0088ce;
 }
-.accent{
+.color-primary-dark{
+  color: darkblue;
+}
+.color-primary-light{
+  color: lightblue;
+}
+.color-accent{
 color: #44ae30;
 }
+.color-acccent-dark{
+  color: darkgreen;
+}
+.color-accent-light{
+  color: lightgreen;
+}
 .primary-bg{
-  color: Aliceblue;
+  color: black;
 }
 .accent-bg{
  background-color: Magenta
@@ -23,3 +35,24 @@ color: #44ae30;
 .info-color{
   color: #ffff00;
   }
+.navbar{
+  background-color: silver;
+  color: aliceblue;
+  border: solid 1px;
+  border-radius: 10px;
+  font-size: 32px;
+}
+.box-150-px{
+  height: 150px;
+  width: 150px;
+  border: solid 1px black;
+}
+.box-50-px{
+  height: 50px;
+  width: 50px;
+  border: solid 1px red;
+  margin: 5px;
+}
+.margin-25{
+  margin: 25px;
+}
