@@ -11,8 +11,16 @@ FLEXBOX
   margin-top: 50px;
   justify-content: space-evenly;
 }
+.flex-container-alt {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: gold;
+  border-radius: 50px;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
 .flex-item {
-background-color: aliceblue;
+background-color: darkblue;
 font-size: 18px;
 margin: 25px;
 }
@@ -61,10 +69,16 @@ justify-content: right;
     display: flex;
     margin: 25px;
 }
+.footer{
+ position:fixed;
+ bottom:0px;
+ width:100%;
+}
 h1 {
   font-family: Trebuchet New, monospace;
   font-size: 3em;
   margin: 1em 0 0.3em;
+
 }
 img {
   width: 300px;
