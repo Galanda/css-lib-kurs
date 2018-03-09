@@ -1,0 +1,93 @@
+/*
+FLEXBOX
+*/
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: red;
+  height: 150px;
+}
+
+.flex-container >div {
+  background-color: orange;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-item {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+.flex-item >div {
+ background-color: orange;
+ width: 70px;
+ margin: 5px;
+ text-align: center;
+ line-height: 20px;
+ font-size: 12px;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.flex-column >div {
+  background-color: green;
+  width: 100px;
+  margin: 5px;
+ text-align: center;
+ line height: 50px;
+ font-size: 18px;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.flex-row >div {
+  background-color: dodgerblue;
+  width: 100px;
+  margin: 5px;
+ text-align: center;
+ line height: 30px;
+ font-size: 16px;
+}
+h1 {
+  font-family: Trebuchet New, monospace;
+  font-size: 1em;
+  margin: 1em 0 0.3em;
+}
+img {
+  width: 300px;
+  height: 130px;
+}
+
+.narrow {
+  width: 100px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.fill {
+  object-fit: fill;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.none {
+  object-fit: none;
+}
+
+.scale-down {
+  object-fit: scale-down;
+}
